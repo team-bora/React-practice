@@ -68,3 +68,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# React-practice
+리액트 학습과 깃허브 연습을 위한 프로젝트입니다.
+
+## 학습 기간
+23.02.12 ~ 
+
+## 컨벤션
+### ✅브랜치컨벤션
+번호.케밥케이스 방식 (예 -> 01.react-practice)
+
+### ✅커밋컨벤션
+\[type\](공백)description(공백)#Related Issue (예 -> \[feat\] 기능 추가 #11)
+
+**[type] 종류**
+  - ```feat``` : 새로운 기능 추가
+  - ```fix``` : 버그 수정
+  - ```test``` : 테스트 코드 작성 및 수정
+  - ```style``` : 컴포넌트 스타일 및 테마 변경 등의 수정 사항
+  - ```chore``` : 화면 및 로직의 변화가 없는 작업(예 -> 파일 구조 변경, 리팩토링)
+  - ```setting``` : Eslint. dependency,config 파일 등의 수정 사항
+  - ```docs``` : README 파일 수정  
+
+## 참고 학습 자료
+[리액트 자습서](https://ko.reactjs.org/tutorial/tutorial.html)
