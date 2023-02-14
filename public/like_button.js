@@ -25,7 +25,7 @@ const domContainer = document.querySelector('#like_button_container');
 const root = ReactDOM.createRoot(domContainer);
 root.render(e(LikeButton));
 
-// JavaScript
+/* // JavaScript
 const e = React.createElement;
 
 // "좋아요" <button>을 표시
@@ -40,4 +40,4 @@ return (
   <button onClick={() => this.setState({ liked: true })}>
     Like
   </button>
-)
+) */
