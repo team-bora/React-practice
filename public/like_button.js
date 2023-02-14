@@ -24,3 +24,20 @@ class LikeButton extends React.Component {
 const domContainer = document.querySelector('#like_button_container');
 const root = ReactDOM.createRoot(domContainer);
 root.render(e(LikeButton));
+
+// JavaScript
+const e = React.createElement;
+
+// "좋아요" <button>을 표시
+return e(
+  'button',
+  { onClick: () => this.setState({ liked: true }) },
+  'Like'
+);
+
+// "좋아요" <button>을 표시
+return (
+  <button onClick={() => this.setState({ liked: true })}>
+    Like
+  </button>
+)
