@@ -1,4 +1,4 @@
-'use strict';
+/* global React, ReactDOM */
 
 const e = React.createElement;
 
